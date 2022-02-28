@@ -1,0 +1,170 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "streetAddress": "1273 Stew St"
+    },
+    {
+      "id": 2,
+      "streetAddress": "4565 Lauler Dr"
+    },
+    {
+      "id": 3,
+      "streetAddress": "2866 Bethlehem Rd"
+    },
+    {
+      "id": 4,
+      "streetAddress": "1324 Voodoo Pl"
+    },
+    {
+      "id": 5,
+      "streetAddress": "1245 Terrace Ct"
+    },
+    {
+      "id": 6,
+      "streetAddress": "1867 Bohemian Grove"
+    }
+  ],
+  "candyCategories": [
+    {
+      "id": 1,
+      "categoryName": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "categoryName": "Chocolate"
+    },
+    {
+      "id": 3,
+      "categoryName": "Soft Candy"
+    },
+    {
+      "id": 4,
+      "categoryName": "Gum"
+    },
+    {
+      "id": 5,
+      "categoryName": "Jelly Beans"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "candyCategoryId": 1,
+      "candyName": "Jolly Rancher",
+      "price": "$3.99"
+    },
+    {
+      "id": 2,
+      "candyCategoryId": 2,
+      "candyName": "Hershey's Bar",
+      "price": "$4.89"
+    },
+    {
+      "id": 3,
+      "candyCategoryId": 4,
+      "candyName": "Juicy Fruit",
+      "price": "$2.99"
+    },
+    {
+      "id": 4,
+      "candyCategoryId": 3,
+      "candyName": "Gummy Bears",
+      "price": "$6.99"
+    },
+    {
+      "id": 5,
+      "candyCategoryId": 5,
+      "candyName": "Jelly Belly",
+      "price": "$5.99"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "David Clark",
+      "locationId": 1,
+      "manager": "y",
+      "fullTime": "y",
+      "hourlyRate": 15
+    },
+    {
+      "id": 2,
+      "name": "Mac McMorries",
+      "locationId": 3,
+      "manager": "n",
+      "fullTime": "n",
+      "hourlyRate": 12
+    },
+    {
+      "id": 3,
+      "name": "Randall Thomas",
+      "locationId": 2,
+      "manager": "n",
+      "fullTime": "y",
+      "hourlyRate": 17
+    },
+    {
+      "id": 4,
+      "name": "Christian Haggerty",
+      "locationId": 4,
+      "manager": "y",
+      "fullTime": "n",
+      "hourlyRate": 16
+    },
+    {
+      "id": 5,
+      "name": "Erich Hils",
+      "locationId": 6,
+      "manager": "n",
+      "fullTime": "y",
+      "hourlyRate": 14
+    },
+    {
+      "id": 6,
+      "name": "Henry House",
+      "locationId": 5,
+      "manager": "y",
+      "fullTime": "n",
+      "hourlyRate": 14
+    },
+    {
+      "name": "Lauden Eller",
+      "locationId": 6,
+      "manager": "n",
+      "fullTime": "y",
+      "hourlyRate": "16",
+      "id": 7
+    },
+    {
+      "name": "Noah Taggart",
+      "locationId": 2,
+      "manager": "y",
+      "fullTime": "y",
+      "hourlyRate": "12.33",
+      "id": 8
+    },
+    {
+      "name": "Will Wardrop",
+      "locationId": 1,
+      "manager": "y",
+      "fullTime": "y",
+      "hourlyRate": "12.22",
+      "id": 9
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Steve Brownlee"
+    },
+    {
+      "id": 2,
+      "name": "Devin Kent"
+    },
+    {
+      "id": 3,
+      "name": "Tyler Hillard"
+    }
+  ]
+}
